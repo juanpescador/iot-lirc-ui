@@ -1,2 +1,2 @@
-FROM nginx:latest-alpine
-COPY --chown=nginx . usr/share/nginx/html/
+FROM nginx:mainline-alpine
+COPY . usr/share/nginx/html/
